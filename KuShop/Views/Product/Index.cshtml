@@ -1,0 +1,87 @@
+﻿@model IEnumerable<KuShop.ViewModels.PdVM>
+@{
+    //สามารถเขียนคำสั่งด้วย c# ได้
+}
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewBag.ErrorMessage;
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<h1>Product Page</h1>
+
+@{
+    //รับค่าจาก ViewBag ที่ส่งมาจาก Controller
+    var stext = ViewBag.stext;
+}
+
+<!-- asp-controller เป็นการบอกว่า Form นี้จะไปทำงานที่ Controller ตัวใหน
+     asp-action เป็นการบอกว่าจะทำงานที่ action ใหน (ของ Controller ที่ระบุ)
+     ถ้าเป็นการทำงานผ่าน Form ถ้าไม่ได้ระบุ Method จะถือว่าเป็น Method [post] -->
+<form asp-controller="Product" asp-action="Index">
+    <div class="row">
+        <div class="col-sm-6 col-md-8 col-lg-9">
+            <a class="btn btn-primary" asp-action="Create">
+                <i class="bg-info bi-plus-lg"></i> เพิ่ม
+            </a>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="input-group">
+                <span class="input-group-text">ค้นหา</span>
+                <input type="text" name="stext" class="form-control" value="@stext" />
+                <button type="submit" class="btn btn-secondary">
+                    OK
+                </button>
+            </div>
+        </div>
+    </div>
+</form>
+<table width="80%" class="table">
+    <tr>
+        <th></th>
+        <th>รหัสสินค้า</th>
+        <th>ชื่อสินค้า</th>
+        <th>หมวดหมู่</th>
+        <th>ราคาขาย</th>
+        <th>คงเหลือ</th>
+        <th>คำอธิบายสินค้า</th>
+    </tr>
+    
+    @{
+        //กำหนดค่าเพื่อให้นับค่าแสดงลำดับ
+        var i = 0;
+    }
+    @foreach(var item in Model)
+    {
+        i++; 
+        //Razor page ใช้เครื่องหมาย @ หน้าตัวแปรที่ต้องการให้แสดงผล
+        <tr>
+            <td>@i</td>
+            <td>@item.PdId</td>
+            <td>@item.PdName</td>
+            <td>@item.CategoryName</td>
+            <td>@item.PdPrice</td>
+            <td>@item.PdStk</td>
+            <td>@item.PdDs</td>
+            <td class="text-center">
+                <!-- asp-action ระบุว่าให้ไปทำงาน Action Method ใด  -->
+                <!-- asp-route ระบุส่งค่าใดไปด้วย asp-route-id คือส่งค่า id=PdId  -->
+                <a asp-action="Edit" asp-route-id="@item.PdId">
+                    <i class="bi bi-pencil-square"></i>
+                </a>
+            </td>
+            <td class="text-center">
+                <a asp-action="Delete" asp-route-id="@item.PdId">
+                    <i class="bi bi-x-lg text-danger"></i>
+                </a>
+            </td>
+        </tr>
+    }
+</table>

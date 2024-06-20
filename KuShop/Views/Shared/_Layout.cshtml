@@ -1,0 +1,213 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor;
+
+@{
+    //ย้ายตัวแปร Session ที่ประกาศกระจายไว้ มารวมกันที่เดียว
+    var CartId = HttpContextAccessor.HttpContext.Session.GetString("CartId");
+    var CartMoney = HttpContextAccessor.HttpContext.Session.GetString("CartMoney");
+    var CartQty = HttpContextAccessor.HttpContext.Session.GetString("CartQty");
+    var CusId = HttpContextAccessor.HttpContext.Session.GetString("CusId");
+    var CusName = HttpContextAccessor.HttpContext.Session.GetString("CusName");
+
+    var StfId = HttpContextAccessor.HttpContext.Session.GetString("StfId");
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] 101 Books shop</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/KuShop.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="icon" href="~/image/101minilogo.png" />
+    <!--Datetime Picker-->
+    <link rel="stylesheet" href="~/css/jquery.datetimepicker.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-danger bg-opacity-25 border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/image/101logo.png" width="100px" height="60px"/></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @if (StfId == null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Home" asp-action="Shop">หน้าร้าน</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Cart" asp-action="List" asp-route-cusid="@CusId">
+                                    ประวัติการซื้อ
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    จัดการระบบ
+                                </a>
+                                <ul class="dropdown-menu bg-light">
+                                    <li><a class="dropdown-item" asp-controller="Product" asp-action="Index">ข้อมูลสินค้า</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Buying" asp-action="Index">ซื้อสินค้าเข้า</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    รายงาน
+                                </a>
+                                <ul class="dropdown-menu bg-light">
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Report" asp-action="SaleDaily">
+                                            สินค้าขายรายวัน
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Report" asp-action="SaleMonthly">
+                                            สินค้าขายรายเดือน
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                </div>
+                <div class="text-end pe-3">
+                    <!--แสดงข้อมูลตะกร้า-->
+                    @if (@HttpContextAccessor.HttpContext.Session.GetString("CartId") != null)
+                    {
+                        <a class="btn btn-success opacity-50 text-white mx-2"
+                           asp-controller="Cart" asp-action="Show" asp-route-cartid="@CartId">
+                            @CartId [@CartMoney][@CartQty]
+                        </a>
+                    }
+
+                    <!--แสดงข้อมูลการ Login-->
+                    @if (@HttpContextAccessor.HttpContext.Session.GetString("CusId") != null)
+                    {
+                        <a class="btn btn-success text-white mx-2"
+                           asp-controller="Customer" asp-action="Show" asp-route-id="@CusId">
+                            @CusName
+                        </a>
+                        <a class="btn btn-danger text-white ms-2"
+                           asp-controller="home" asp-action="Logout"
+                           onclick="return confirm('ออกจากระบบ?')">
+                            logout
+                        </a>
+                    }
+                    else
+                    {
+                        if (StfId == null)
+                        {
+                            <a class="btn btn-primary text-white" asp-controller="Home" asp-action="Login">
+                                <i class="bi bi-box-arrow-left "></i>&nbsp;&nbsp;login
+                            </a>
+                        }
+                        else
+                        {
+                            <a class="btn btn-danger text-white" asp-controller="Staff" asp-action="Logout"
+                               onclick="return confirm('ออกจากระบบ')">
+                                <i class="bi bi-box-arrow-right "></i>&nbsp;&nbsp;logout
+                            </a>
+                        }
+                    }
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            flex: 1;
+        }
+
+        footer {
+            margin-top: auto;
+        }
+    </style>
+
+    <footer class="text-muted floating-footer" style="display: flex; flex-direction: column; margin-top: auto; background-color: palevioletred; color: black;">
+        <div class="container" style="flex: 1;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div class="left" style="flex: 2; text-align: left; color: black;">
+                    <div>
+                        <div><h4>101 Books Shop <i class="bi bi-book"></i></h4></div>
+                        <div>101 Books Shop ให้บริการจำหน่ายหนังสือการ์ตูน</div>
+                        <div>นิยาย และพ็อคเก็ตบุ๊ค โดยตรงจากสำนักพิมพ์</div>
+                        <div>สามารถมั่นใจได้ว่าลูกค้าจะได้รับสินค้าและบริการหลังการขาย</div>
+                        <div>รวมทั้งยังจำหน่ายสินค้าในราคาไม่แพง</div>
+                        <div>
+                            &copy; 2024 101 Books Shop All rights reserved. - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="center" style="flex: 1; text-align: left; color: black;">
+                    <div><h4>ติดตามเรา</h4></div>
+                    <div>
+                        <a href="https://www.facebook.com/?locale=th_TH">
+                            <i class="bi bi-facebook"></i>
+                            <i class="fas fa-envelope"></i> Facebook
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://line.me/th/">
+                            <i class="bi bi-line"></i>
+                            <i class="fas fa-envelope"></i> Line
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/">
+                            <i class="bi bi-instagram"></i>
+                            <i class="fas fa-envelope"></i> Instagram
+                        </a>
+                    </div>
+                </div>
+
+                <div class="right" style="flex: 1; text-align: left; color: black;">
+                    <div><h4>ติดต่อเรา</h4></div>
+                    <div><i class="bi bi-envelope-fill"></i> อีเมล</div>
+                    <div>book101.marketing@gmail.com</div>
+                    <div><i class="bi bi-telephone-fill"></i> เบอร์ติดต่อ</div>
+                    <div>012-1232335</div>
+                    <div><i class="bi bi-house-door-fill"></i> ที่อยู่</div>
+                    <div>บริษัท 101 บุ๊ค จำกัด เลขที่ 123 ซอยพิบูลอุปถัมภ์</div>
+                    <div>แขวงสามเสนนอก เขตห้วยขวาง กรุงเทพมหานคร 10310</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script src="~/js/jquery.datetimepicker.full.min.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

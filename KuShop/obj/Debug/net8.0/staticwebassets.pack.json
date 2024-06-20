@@ -1,0 +1,433 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KuShop.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KuShop.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\css\\jquery.datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.datetimepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\image\\101logo.png",
+      "PackagePath": "staticwebassets\\image\\101logo.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\image\\101minilogo.png",
+      "PackagePath": "staticwebassets\\image\\101minilogo.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\image\\bg.jpg",
+      "PackagePath": "staticwebassets\\image\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\image\\bg1.jpg",
+      "PackagePath": "staticwebassets\\image\\bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\image\\bg2.jpg",
+      "PackagePath": "staticwebassets\\image\\bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\image\\bglogin.jpg",
+      "PackagePath": "staticwebassets\\image\\bglogin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\image\\bgloginstaff.jpg",
+      "PackagePath": "staticwebassets\\image\\bgloginstaff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\image\\login.png",
+      "PackagePath": "staticwebassets\\image\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\image\\logo.png",
+      "PackagePath": "staticwebassets\\image\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\image\\saitama.jpg",
+      "PackagePath": "staticwebassets\\image\\saitama.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\image\\staff.png",
+      "PackagePath": "staticwebassets\\image\\staff.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\image\\staff1.png",
+      "PackagePath": "staticwebassets\\image\\staff1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgcus\\.jpg",
+      "PackagePath": "staticwebassets\\imgcus\\.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgcus\\C003.jpg",
+      "PackagePath": "staticwebassets\\imgcus\\C003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgcus\\C004.jpg",
+      "PackagePath": "staticwebassets\\imgcus\\C004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgcus\\c002.jpg",
+      "PackagePath": "staticwebassets\\imgcus\\c002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd.zip",
+      "PackagePath": "staticwebassets\\imgpd.zip"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b001.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b001.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b002.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b002.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b003.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b003.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b004.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b004.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b005.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b005.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b006.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b006.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b007.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b007.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b008.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b008.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b009.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b009.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b010.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b010.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b011.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b011.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b012.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b012.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b013.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b013.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b014.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b014.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b015.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b015.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b016.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b016.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b017.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b017.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b018.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b018.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b019.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b019.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b020.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b020.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b021.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b021.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b022.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b022.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\imgpd\\b023.jpg",
+      "PackagePath": "staticwebassets\\imgpd\\b023.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\js\\jquery.datetimepicker.full.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.datetimepicker.full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\OneDrive\\เดสก์ท็อป\\101BooksShop\\KuShop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KuShop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.KuShop.props",
+      "PackagePath": "build\\KuShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.KuShop.props",
+      "PackagePath": "buildMultiTargeting\\KuShop.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.KuShop.props",
+      "PackagePath": "buildTransitive\\KuShop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

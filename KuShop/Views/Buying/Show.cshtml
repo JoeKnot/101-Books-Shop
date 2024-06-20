@@ -1,0 +1,87 @@
+﻿@using KuShop.ViewModels;
+@using System.Globalization;
+@model dynamic;
+@{
+    CultureInfo us = new CultureInfo("en-US");
+}
+<div class="container">
+    @if (TempData["Errormessage"] != null)
+    {
+        <div class="alert alert-warning">@TempData["Errormessage"]</div>
+    }
+    <!--อ่านค่าจาก Model เป็น Object-->
+    @foreach (Buying master in Model.Master)
+    {
+        <div class="card bg-warning bg-opacity-50">
+            <div class="card-body">
+                <h4 class="card-title text-primary opacity-75">เอกสารเลขที่ @master.BuyId</h4>
+                <h5 class="card-subtitle mt-2 text-muted">
+                    สั่งซื้อวันที่ @master.BuyDate.Value.ToString("yyyy-MMM-dd",us)
+                </h5>
+                <h5>ผู้จัดจำหน่ายสินค้า @master.SupId-@ViewBag.SupName [@master.Saleman] 
+                    &nbsp;เอกสารอ้างอิง:@master.BuyDocId</h5>
+                <div class="text-danger text-end">
+                    จำนวนสินค้า @master.BuyQty ยอดเงิน @master.BuyMoney.Value.ToString("#,###.00")  บาท
+                </div>
+                <div class="text-secondary">
+                    หมายเหตุ:@master.BuyRemark
+                </div>
+                <hr>
+                <a class="btn btn-danger" asp-controller="Buying" asp-action="Delete"
+                    asp-route-buyid="@master.BuyId" onclick=" return confirm('ยืนยันลบเอกสาร')">
+                    <i class="bi bi-file-earmark-excel"></i> ลบเอกสาร
+                </a>
+                <a class="btn btn-link float-end" asp-controller="Buying" asp-action="Index">
+                    กลับหน้าหลัก
+                </a>
+                <a class="btn btn-success float-end" asp-controller="Buying" asp-action="Edit" 
+                    asp-route-buyid="@master.BuyId" >
+                    <i class="bi bi-pencil-fill"></i> แก้ไข
+                </a>
+            </div>
+        </div>
+    }
+</div>
+
+
+<!--Detail Part-->
+<div class="container">
+    <table class="table mt-3  table-hover">
+        <tr class="bg-light">
+            <th>
+                <a asp-action="CreateDtl" asp-route-buyid="@ViewBag.theid"
+                  class="btn btn-primary">
+                  <i class="bi-plus-lg"></i>
+                </a>
+            </th>
+            <th>สินค้า</th>
+            <th></th>
+            <th class="text-end">ราคา</th>
+            <th class="text-center">จำนวน</th>
+            <th class="text-end">รวม</th>
+            <th></th>
+        </tr>
+        @{
+            var i = 0;
+        }
+        @foreach (BdVM detail in Model.Detail)
+        {
+            i++;
+            <tr>
+                <td>@i</td>
+                <td>@detail.PdId</td>
+                <td>@detail.PdName</td>
+                <td class="text-end">@detail.BdtlPrice </td>
+                <td class="text-center">@detail.BdtlQty</td>
+                <td class="text-end">@detail.BdtlMoney </td>
+                <td class="text-center">
+                    <a asp-controller="Buying" asp-action="DeleteDtl"
+                        asp-route-pdid="@detail.PdId" asp-route-buyid="@detail.BuyId"
+                        onclick=" return confirm('ยืนยันลบสินค้าที่เลือก')">
+                        <i class="bi-x-lg text-danger"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

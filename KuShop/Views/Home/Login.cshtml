@@ -1,0 +1,126 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor;
+
+<div class="container">
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    @if (HttpContextAccessor.HttpContext.Session.GetString("CusId") == null)
+    {
+        //form Login
+        <!DOCTYPE html>
+        <html lang="th">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>101 Book Login</title>
+            <!-- Bootstrap CSS -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0HjJsQC2QA7j7huqVq37oR02hxyJI5ki7L5ycjsRDUzF+daY7YXtV+h0UhOUGJMS" crossorigin="anonymous">
+            <!-- Bootstrap Icons -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+            <style>
+                /* Custom CSS for additional styling */
+                body {
+                    background-color: #f8f9fa;
+                }
+
+                .login-container {
+                    margin-top: 70px;
+                    background-image: url('/image/bglogin.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat; /* ไม่ต้องทำซ้ำภาพพื้นหลัง */
+                    height: 70vh; /* กำหนดความสูงของพื้นหลังให้เต็มหน้าจอ */
+                    padding: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .login-form {
+                    background-color: rgba(255, 255, 255, 0.8); /* Add transparency to the form background */
+                    padding: 20px; /* ลดการเพิ่มระยะห่างของฟอร์ม */
+                    border-radius: 10px;
+                    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+                    max-width: 300px; /* ปรับขนาดกว้างสูงสุดของฟอร์ม */
+                    width: 100%; /* Ensure the form fills its container */
+                    margin: 0 auto; /* ทำให้ฟอร์มอยู่ตรงกลาง */
+                }
+
+                .login-heading {
+                    font-size: 2.5rem;
+                    margin-bottom: 20px; /* ลดระยะห่างของหัวข้อ */
+                    color: #007bff;
+                    text-align: center;
+                }
+
+                .login-form .form-control {
+                    border-radius: 20px;
+                    margin-bottom: 15px; /* ลดระยะห่างของช่องกรอกข้อมูล */
+                }
+
+                .login-form .input-group-text {
+                    border-radius: 20px;
+                    width: 40px; /* ปรับความกว้างของช่องให้พอดีกับ icon */
+                    height: 38px; /* ปรับความสูงของ icon */
+                }
+
+                .login-form .btn-primary {
+                    border-radius: 20px;
+                    padding: 10px 20px;
+                    width: 100%;
+                }
+
+                .create-account-link {
+                    text-decoration: none;
+                    color: #007bff;
+                    margin-top: 10px;
+                    display: inline-block;
+                    text-align: center;
+                    width: 100%;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <div class="row justify-content-center login-container">
+                    <div class="col-lg-6 col-md-8 col-sm-10">
+                        <div class="login-form">
+                            <div class="text-center login-heading">101 Books Login</div>
+                            <form asp-controller="Home" asp-action="Login" method="post">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+                                    <input type="text" name="userName" class="form-control" placeholder="ชื่อผู้ใช้" required>
+                                </div>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text"><i class="bi bi-lock-fill"></i></span>
+                                    <input type="password" name="UserPass" class="form-control" placeholder="รหัสผ่าน" required>
+                                </div>
+                                <button type="submit" class="btn btn-primary">เข้าสู่ระบบ</button>
+                            </form>
+                            <a class="create-account-link"
+                               asp-controller="Customer" asp-action="Create">
+                                สร้างบัญชีผู้ใช้ใหม่
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Bootstrap JS (optional) -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-IXk1j4jAgv27nDL3xRlmp1Uvf/5gZxNrQ6w/NQTeW6PWlFOQ+hXt2d4KGkV9Ro7k" crossorigin="anonymous"></script>
+        </body>
+    </html>
+
+
+
+
+    }
+    else
+    {
+    <div class="display-3">Welcome K.@HttpContextAccessor.HttpContext.Session.GetString("CusName")</div>
+    }
+
+
+</div>
